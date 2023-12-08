@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Conference Call: Home</title>
+        <link rel="stylesheet" href="review.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="Reviewing books music and movies">
+        <meta name="author" content="Lizzie Ives">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+            <div>
+            <img src="redphonelogo.png" alt="site logo" width="66" height="100">
+            <h1>Conference Call</h1>
+            <p>Reviewing Together!</p>
+                </div>
+        </header>
+        <!-- Start of the page navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">About Us</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <li class="active"><a href="survey.html">Survey</a></li>
+                <li><a href="contactinfo.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <!-- start the page main -->
+    <main>
+        <h1>Survey</h1>
+        <h2>Connect with Others!</h2>
+        <form method="get" class="myForm" action="thankyou.html">
+            
+            <fieldset>
+               <legend>Your Information</legend>
+            <label>First Name*<input type="text" name="fname" required> </label>
+            <label>Last Name*<input type="text" name="Lname" required> </label>
+                <label>Email*<input type="email" name="email" required> </label>
+            <label>Cell Number<input type="tel" name="phone" placeholder="123-456-7899"> </label>
+            </fieldset>
+            
+            <fieldset>
+            <legend>What are you most passionate about?</legend>
+                <label><input type="checkbox" name="books" value="chosen"> Books</label>
+                <label><input type="checkbox" name="music" value="chosen"> Music</label>
+               <label><input type="checkbox" name="movies" value="chosen"> Movies</label>
+            
+            </fieldset>
+            
+            <fieldset>
+            <legend>Communication Method</legend>
+                <label><input type="radio" name="method" value="letter">Pen Pals!</label>
+                <label><input type="radio" name="method" value="phone">Phone Calls! </label>
+                <label><input type="radio" name="method" value="video">Video Chat!</label>
+                
+                <label>
+                <select name="time">
+                <option value="none">Please Select Your Time Zone</option>
+                <option value="atlantic">Atlantic Time Zone</option>
+                <option value="eastern">Eastern Time Zone</option>
+                <option value="central">Central Time Zone</option>
+                <option value="mountain">Mountain Time Zone</option>
+                    <option value="pacific">Pacific Time Zone</option>
+                    <option value="alaska">Alaska Time Zone</option>
+                    <option value="hawaii">Hawaii-Aleutian Time Zone</option>
+                    <option value="samoa">Samoa Time Zone</option>
+                    <option value="chamorro">Chamorro Time Zone</option>
+                </select>
+                </label>
+            </fieldset>
+            
+            <label>Comments
+                <textarea name="comments">What type of person would you like to meet?</textarea>
+            </label>
+            
+            
+            
+        
+        <input type="submit" value="Sign Up">
+        </form>
+        
+        </main>
+        
+        
+        
+        
+         <!-- Start of the page footer -->
+        <footer>
+        <p>&copy; 2023 &bull; Lizzie Ives &bull; <a href="mailto:elizabethjaneives@gmail.com">Email Us</a></p>
+        </footer>
+        
+    </body>
+</html>
