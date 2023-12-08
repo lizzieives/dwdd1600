@@ -254,3 +254,8 @@ footer a {
     color: #DFE1A8;
     margin: .5rem 0 1rem 1vw;
 }
+
+header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto;
+}
